@@ -1,0 +1,51 @@
+table {
+  width: 100%;
+}
+
+.lgout{
+  float: right;
+  background-color: #fdfdfd;
+  border-color: #efefef;
+  color: red;
+}
+
+.make-red {
+  background-color: #ffd0c2;
+}
+
+
+
+
+
+  
+:host ::ng-deep .mat-progress-spinner circle, .mat-spinner circle {   
+  stroke: #30A6EE;
+}
+
+:host ::ng-deep .track circle{       
+  stroke-opacity: 0.3 !important;
+}
+
+
+.successsnackbarclass {
+  background-color: green !important;
+  color: white;
+}
+
+.errorsnackbarclass {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #a72f2f !important;
+}
+
+
+th.mat-header-cell, td.mat-cell {
+  text-align: center;
+  border: 1px solid #CCC;
+  padding: 0 !important;
+ 
+  
+}
+th {
+  font-size: medium;
+  color: black;
+}

@@ -1,0 +1,49 @@
+2021-11-23 12:14:19 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Ironman\VJP wo SSL\VJP-Quality-Module-VJP\Server\node_modules\node-windows\lib\wrapper.js" --file "D:\Ironman\VJP wo SSL\VJP-Quality-Module-VJP\Server\app.js" --scriptoptions= --log "VJP Server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-11-23 12:14:19 - Started 8676
+2021-11-23 14:25:55 - Stopping vjpserver.exe
+2021-11-23 14:25:55 - ProcessKill 8676
+2021-11-23 14:25:56 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-11-23 14:28:17 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Ironman\VJP wo SSL\VJP-Quality-Module-VJP\Server\node_modules\node-windows\lib\wrapper.js" --file "D:\Ironman\VJP wo SSL\VJP-Quality-Module-VJP\Server\app.js" --scriptoptions= --log "VJP Server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-11-23 14:28:17 - Started 5756
+2021-11-26 15:58:14 - Stopping vjpserver.exe
+2021-11-26 15:58:14 - ProcessKill 5756
+2021-11-26 15:58:15 - Found child process: 5772 Name: conhost.exe
+2021-11-26 15:58:15 - Found child process: 6740 Name: node.exe
+2021-11-26 15:58:15 - Stopping process 5772
+2021-11-26 15:58:15 - Send SIGINT 5772
+2021-11-26 15:58:15 - SIGINT to 5772 failed - Killing as fallback
+2021-11-26 15:58:15 - Stopping process 6740
+2021-11-26 15:58:15 - Send SIGINT 6740
+2021-11-26 15:58:15 - SIGINT to 6740 failed - Killing as fallback
+2021-11-26 15:58:15 - Stopping process 5756
+2021-11-26 15:58:15 - Send SIGINT 5756
+2021-11-26 15:58:15 - SIGINT to 5756 failed - Killing as fallback
+2021-11-26 15:58:15 - Finished vjpserver.exe
+2021-11-26 15:58:19 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Ironman\VJP wo SSL\VJP-Quality-Module-VJP\Server\node_modules\node-windows\lib\wrapper.js" --file "D:\Ironman\VJP wo SSL\VJP-Quality-Module-VJP\Server\app.js" --scriptoptions= --log "VJP Server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-11-26 15:58:19 - Started 4376
+2021-11-26 15:58:26 - Stopping vjpserver.exe
+2021-11-26 15:58:26 - ProcessKill 4376
+2021-11-26 15:58:26 - Found child process: 12072 Name: conhost.exe
+2021-11-26 15:58:26 - Found child process: 11528 Name: node.exe
+2021-11-26 15:58:26 - Stopping process 12072
+2021-11-26 15:58:26 - Send SIGINT 12072
+2021-11-26 15:58:26 - SIGINT to 12072 failed - Killing as fallback
+2021-11-26 15:58:26 - Stopping process 11528
+2021-11-26 15:58:26 - Send SIGINT 11528
+2021-11-26 15:58:26 - SIGINT to 11528 failed - Killing as fallback
+2021-11-26 15:58:26 - Stopping process 4376
+2021-11-26 15:58:26 - Send SIGINT 4376
+2021-11-26 15:58:26 - SIGINT to 4376 failed - Killing as fallback
+2021-11-26 15:58:26 - Finished vjpserver.exe
+2021-11-26 15:58:46 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Ironman\VJP wo SSL\VJP-Quality-Module-VJP\Server\node_modules\node-windows\lib\wrapper.js" --file "D:\Ironman\VJP wo SSL\VJP-Quality-Module-VJP\Server\app.js" --scriptoptions= --log "VJP Server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-11-26 15:58:46 - Started 11792
